@@ -44,11 +44,11 @@ def Gaussian_beam( z, W0, A0, lamb ):
 
     return I
 
-# Hermite-Gauss Polynomial
+# Hermite-Gaussian Polynomial
 def HGl(l, u):
     return special.hermite(l, monic=True)(u) * np.exp(-u**2/2)
 
-# Hermite-Guass beam Intensity
+# Hermite-Gaussian beam Intensity
 def Hermite_Gaussian_beam(z, W0, Alm, lamb, l, m):
     
     W1 = W(z, W0, lamb)
@@ -169,10 +169,10 @@ ax.set_zlabel('Intensity')
 ax.set_title('3D Surface (Gaussian Beam)')
 plt.show()
 
-# Hermite-Gauss Beam simulation
+# Hermite-Gaussian Beam simulation
 # --------------------------- Standard Values ---------------------------
 
-# Hermite-Gauss modes of vibration
+# Hermite-Gaussian modes of vibration
 l, m = 12, 15
 
 # Initial amplitude
@@ -216,10 +216,10 @@ ax_hermite.set_title(f'3D Surface (Hermite-Gaussian Beam) mode ({l},{m})')
 plt.show()
 
 
-# Laguerre-Gauss Beam simulation
+# Laguerre-Gaussian Beam simulation
 # --------------------------- Standard Values ---------------------------
 
-# Laguerre-Gauss vibration modes
+# Laguerre-Gaussian vibration modes
 l_laguerre, m_laguerre = 10, 5
 
 # Initial amplitude
