@@ -25,4 +25,4 @@ This program its for study beams optics with didactic proposes. It has numerical
 
  ## Instalation
 
- It requires _numpy_, _scipy_, _scipy.special_, _matplotlib.pyplot_ and _mpl_toolkits.mplot3d_ to run this code.
+ It requires _numpy_, _scipy_, _scipy.special_, _matplotlib.pyplot_ and _mpl_toolkits.mplot3d_ modules to run this code.
