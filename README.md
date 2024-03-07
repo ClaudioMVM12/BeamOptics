@@ -23,6 +23,26 @@ This program its for study beams optics with didactic proposes. It has numerical
 
  It has the possibility of change the standard parameters (by code) to perform others situations.
 
- ## Instalation
+# Instalation
 
- It requires _numpy_, _scipy_, _scipy.special_, _matplotlib.pyplot_ and _mpl_toolkits.mplot3d_ modules to run this code.
+## Create a virtual enveroment
+
+python3 -m venv beamOptics
+
+## Activate
+
+### Windows (cmd):
+
+beamOptics\Scripts\activate.bat
+
+### Windows (powershell):
+
+beamOptics\Scripts\activate.ps1
+
+### Mac OS/Linux:
+
+source beamOptics/bin/activate
+
+### Install packages with requirement.txt
+
+pip install -r requirement.txt
