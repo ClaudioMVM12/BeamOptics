@@ -1,9 +1,6 @@
 import numpy as np
-import scipy
 from scipy import special
-
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
 
 # This program doens´t have support from unit system, but every value for variables respects the SI unit as show above:
 # W = 1 (1 m), W = 0.01 (1 cm), W = 0.001 -> (1 mm)
@@ -173,7 +170,7 @@ plt.show()
 # --------------------------- Standard Values ---------------------------
 
 # Hermite-Gaussian modes of vibration
-l, m = 12, 15
+l, m = 1, 1
 
 # Initial amplitude
 Alm = 1
@@ -220,7 +217,7 @@ plt.show()
 # --------------------------- Standard Values ---------------------------
 
 # Laguerre-Gaussian vibration modes
-l_laguerre, m_laguerre = 10, 5
+l_laguerre, m_laguerre = 3, 2
 
 # Initial amplitude
 Alm = 1
